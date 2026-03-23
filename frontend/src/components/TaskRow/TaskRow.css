@@ -1,0 +1,28 @@
+.task-row td {
+  padding: 12px 16px;
+  vertical-align: middle;
+}
+
+.task-row__title {
+  font-weight: 500;
+  color: var(--color-text);
+  max-width: 260px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.task-row__badge { white-space: nowrap; }
+
+.task-row__date {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
+.task-row__actions {
+  display: flex;
+  gap: 8px;
+  white-space: nowrap;
+}
